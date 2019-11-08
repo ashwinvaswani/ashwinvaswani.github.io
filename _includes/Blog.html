@@ -23,6 +23,27 @@
 </div>
 
 <div class="user-projects">
+  </div>
+  <div align="center">
+  <div class="contents">
+    <div align="left">
+    <h3> Generative Modelling (Speech2Face) :</h3>
+  </div>
+  
+    <p>Creating a model for reconstructing a person's face from his/her voice sample.</p>
+    <p>The project started off with understanding the workflow and creating a timeline of the tasks to be done.</p>
+    <p>Firstly, I extracted the voice segments and face of the people from youtube videos using the AVSpeech dataset.</p>
+    <p>Next, I augmented the audio segments with themselves until they reached a fixed clip size to make the inputs uniform for the encoder network. </p>
+    <p>After that, I extracted the facial features from the extracted faces using VGG vace which would be the output ground truth values for my encoder network and proceeded with building and training the encoder network.</p>
+    <p>The next task was to reconstruct the image of a person from the output of the encoder using a Face decoder network.  </p>
+    <p>I built the decoder network to do the same usign transpose convolution layers and sm currently in the process of optimization of hyper-parameters. </p>
+    <p>In the end, I was able to create a model that can give an approximate of a person's facial looks from his / her audio samples.</p>
+    <a class="project-link" href="https://github.com/ashwinvaswani/Generative-Modelling-of-Images-from-Speech
+  ">Project link</a>
+  </div>
+  </div>
+
+<div class="user-projects">
 </div>
 <div align="center">
 <div class="contents">
